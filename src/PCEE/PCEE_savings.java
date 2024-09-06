@@ -1,3 +1,5 @@
+package PCEE;
+
 import java.util.Scanner;
 
 public class PCEE_savings {

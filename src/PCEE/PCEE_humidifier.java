@@ -1,3 +1,5 @@
+package PCEE;
+
 class PCEE_humidifier {
     public int func1(int humidity, int val_set){    //target mode
         if(humidity < val_set)

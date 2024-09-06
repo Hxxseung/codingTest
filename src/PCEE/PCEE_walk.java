@@ -1,3 +1,5 @@
+package PCEE;
+
 class PCEE_walk {
     public int[] solution(String route) {
         int east = 0;
