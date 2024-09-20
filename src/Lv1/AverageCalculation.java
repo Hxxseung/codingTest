@@ -5,13 +5,12 @@ public class AverageCalculation {
         double answer = 0;
         int sum = 0;
 
-        // 배열의 합계 계산
-        for (int value : arr) {
+        for (int value : arr) { //for - each문을 통해 arr배열을 value에 할당
             sum += value;
         }
 
-        // 배열의 길이가 0이 아닐 경우 평균 계산
-        if (arr.length > 0) {
+
+        if (arr.length > 0) {  // 배열의 길이가 0이 아닐 경우 평균 계산
             answer = (double) sum / arr.length;
         }
 
