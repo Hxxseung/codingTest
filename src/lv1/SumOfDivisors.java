@@ -1,4 +1,4 @@
-package Lv1;
+package lv1;
 
 public class SumOfDivisors {
     public int solution(int n) {

@@ -1,6 +1,4 @@
-package Lv1;
-
-import java.util.Scanner;
+package lv1;
 
 public class OddAndEven {
     public String OddAndEven(int num) {
