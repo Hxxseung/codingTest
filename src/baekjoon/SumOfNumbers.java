@@ -1,6 +1,5 @@
 package baekjoon;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class SumOfNumbers {
@@ -18,7 +17,6 @@ public class SumOfNumbers {
                                                                 //result => i번째만 반환
                                                                 //ex) 12345입력 => (y.substring(2,3))은 "3"을 반환 <- 1(0)2(1)3(2)4(3)5(4)이므로 2번째 위치인 "3"반환
         }
-
         System.out.println(result);
     }
 }
