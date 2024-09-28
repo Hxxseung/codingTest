@@ -1,4 +1,4 @@
-package baekjoon;
+package baekjoon.seadlevel;
 
 public class DrawCat {
     public static void main(String[] args) {

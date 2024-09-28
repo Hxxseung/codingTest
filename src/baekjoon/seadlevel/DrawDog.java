@@ -1,4 +1,4 @@
-package baekjoon;
+package baekjoon.seadlevel;
 
 public class DrawDog {
     public static void main(String[] args) {

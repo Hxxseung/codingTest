@@ -1,4 +1,4 @@
-package baekjoon;
+package baekjoon.seadlevel;
 
 public class Print {
     public static void print(String[] args) {
