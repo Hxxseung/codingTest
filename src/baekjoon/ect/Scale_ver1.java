@@ -2,7 +2,7 @@ package baekjoon.ect;
 
 import java.util.Scanner;
 
-public class Scale {
+public class Scale_ver1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
@@ -15,3 +15,5 @@ public class Scale {
         }
     }
 }
+
+//Scanner + sout => memory : 17616 KB / Time : 172 ms
