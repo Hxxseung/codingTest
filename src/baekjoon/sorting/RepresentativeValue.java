@@ -2,14 +2,15 @@ package baekjoon.sorting;
 
 import java.util.Scanner;
 
-public class SortingNum {
-
+public class RepresentativeValue {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int temp = 0;
+        int sum = 0;
+        int center = 0;
         int n = sc.nextInt();
-        int[] arr = new int[n];
-        for (int i = 0; i < n; i++) {
+        int[] arr = new int[4];
+        for (int i = 0; i < 4; i++) {
             arr[i] = sc.nextInt();
         }
         for (int i = 0; i < arr.length - 1; i++) {
@@ -20,11 +21,13 @@ public class SortingNum {
                     arr[j + 1] = temp;
                 }
             }
+            sum += arr[i];
+            center = (i+ (i+1))/2;
         }
-        for (int j : arr) {
-            System.out.println(j);
-        }
+        System.out.println(sum / n);
+        System.out.println(center);
     }
 }
 
-//BeakJoon 2750 : memory : 22320 KB / Time : 280 ms
+
+//BeakJoon 2587 : memory :
