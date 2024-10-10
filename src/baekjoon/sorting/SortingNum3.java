@@ -28,3 +28,4 @@ public class SortingNum3 {
     }
 }
 
+// Beakjoon 10989 : memory : 364716 KB / Time : 2368 ms
