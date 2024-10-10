@@ -14,7 +14,6 @@ public class SortingNum2 {
 
         int N = Integer.parseInt(br.readLine());
 
-        // list 계열 중 하나를 쓰면 된다.
         ArrayList<Integer> list = new ArrayList<>();
 
         for(int i = 0; i < N; i++) {
