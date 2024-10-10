@@ -72,3 +72,5 @@ class SortingNum2_test {
         System.out.print(sb);
     }
 }
+
+//BeakJoon 2751 : memory : 102964 KB /Time : 796 ms
