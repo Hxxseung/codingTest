@@ -17,3 +17,5 @@ public class SortInside {
         System.out.println(sb);
     }
 }
+
+// Beakjoon 1427 : memory : 17780 KB / Time : 172 ms
