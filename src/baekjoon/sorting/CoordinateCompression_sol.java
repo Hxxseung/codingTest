@@ -35,8 +35,8 @@ public class CoordinateCompression_sol {
              *  중복되면 안되므로, 원소가 중복되지 않을 때만
              *  map에 원소와 그에 대응되는 순위를 넣어준다.
              */
-            if(!rankingMap.containsKey(v)) {
-                rankingMap.put(v, rank);
+            if(!rankingMap.containsKey(v)) {    //랭킹이 존재하는지 확인, 없을 경우
+                rankingMap.put(v, rank);    //랭킹을 해쉬맵에 넣어줌
                 rank++;		// map에 넣고나면 다음 순위를 가리킬 수 있도록 1을 더해준다.
             }
         }
