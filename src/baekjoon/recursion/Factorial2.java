@@ -2,7 +2,7 @@ package baekjoon.recursion;
 
 import java.util.Scanner;
 
-public class factorial2 {
+public class Factorial2 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
