@@ -4,7 +4,6 @@ import java.io.*;
 import java.util.StringTokenizer;
 
 public class BeakJoon24060 {
-    int[] A; //입력받은 배열
     static int[] tmp; //정렬 후 저장하는 배열
     static int result = -1; //결과 저장 (실패시 -1)
     static int cnt = 0; //저장 횟수 누적 저장
@@ -33,7 +32,7 @@ public class BeakJoon24060 {
     }
 
     //오름차순 정렬하는 메소드
-    static void merge_sort(int A[], int p, int r){
+    static void merge_sort(int[] A, int p, int r){
         if(cnt > K) return; //저장 횟수가 진행 횟수보다 넘어가게 되면 더이상 분해 or 병합 진행X
         if(p < r){
             int q = (p+r)/2; //중간으로 쪼갠다.
@@ -50,7 +49,8 @@ public class BeakJoon24060 {
      q : 중간 점 (인덱스) _ 쪼갠 배열의 첫번재 배열
      r : 마지막 점 (인덱스)
     */
-    static void merge(int Array[], int p, int q, int r){
+
+    static void merge(int[] Array, int p, int q, int r){
         int i = p;
         int j = q + 1; //쪼갠 배열(2번째) 시작 인덱스
         int t = 0;
