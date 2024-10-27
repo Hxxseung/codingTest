@@ -23,7 +23,6 @@ public class BeakJoon15651 {
     }
 
     public static void dfs(int depth) {
-        // 깊이가 M이랑 같아지면 출력후 return
         if (depth == M) {
             for (int i = 0; i < M; i++) {
                 sb.append(arr[i] + " ");
