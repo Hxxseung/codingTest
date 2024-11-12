@@ -1,4 +1,4 @@
-package PCEE;
+package programmers.PCEE;
 
 import java.util.Scanner;
 

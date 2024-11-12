@@ -1,4 +1,4 @@
-package lv1;
+package programmers.lv1;
 
 public class NNumbersSpacedByX {
     public long[] NNumbersSpacedByX(long x, int n) {

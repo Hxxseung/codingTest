@@ -1,13 +1,11 @@
-package lv0;
+package programmers.lv0;
 
 import java.util.Scanner;
 
-public class printPlusstr {
+public class printString {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String a = sc.next();
-        String b = sc.next();
-        String c = a+b;
-        System.out.println(c);
+        System.out.println(a);
     }
 }

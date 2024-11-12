@@ -1,4 +1,4 @@
-package PCEE;
+package programmers.PCEE;
 
 class PCEE_walk {
     public int[] solution(String route) {

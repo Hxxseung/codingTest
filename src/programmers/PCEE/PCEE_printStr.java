@@ -1,4 +1,4 @@
-package PCEE;
+package programmers.PCEE;
 
 public class PCEE_printStr {
     public static void main(String[] args) {

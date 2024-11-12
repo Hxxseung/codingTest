@@ -1,4 +1,4 @@
-package PCEE;
+package programmers.PCEE;
 
 class PCEE_tentativeScoring {
     public String[] solution(int[] numbers, int[] our_score, int[] score_list) {
